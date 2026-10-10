@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    background-color: #171720;
+    color: #f4e1ac;
+}
+
+.home-logo img {
+    padding-left: 46px;
+}
+
+.home-heading-container {
+    position: relative;
+    text-align: left;
+    padding: 180px;
+    background-color: #010005;
+    overflow: hidden;
+}
+
+.img-trph {
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    align-items: center;
+    width: 1650px;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.Section-Heading {
+    color: #fce8b1;
+}
+
+.home-navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 5;
+    background: transparent;
+}
+
+.home-navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-logo img {
+    width: 80px;
+}
+
+.home-links-container {
+    display: flex;
+    gap: 25px;
+}
+
+.home-links-container a,
+.home-links-container span {
+    color: #fce8b1;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.home-text03 {
+    font-size: 72px;
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
+    position: relative;
+
+    color: #fce8b1;
+}
+
+.home-text04 {
+    display: block;
+    margin-top: 25px;
+    max-width: 200px;
+    font-size: 16px;
+    color: #fce8b1;
+    position: relative;
+    line-height: 1.6;
+}
+
+
+.home-cards-container {
+    display: flex;
+    justify-content: center;
+    background-color: #171720;
+    padding: 80px 0;
+    gap: 50px;
+    text-align: left;
+}
+
+.home-feature-card,
+.home-feature-card1 {
+    width: 29%;
+    background: none;
+    border: none;
+
+}
+
+.home-features {
+    border-bottom-color: #fce8b1 solid;
+}
+
+.Card-Heading {
+    font-family: "PT Serif", serif;
+    font-size: 50px;
+    color: #fce8b1;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.Card-Text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #fce8b1;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #fce8b1;
+    color: #fce8b1;
+    padding: 8px 18px;
+    cursor: pointer;
+
+}
+
+
+
+
+.home-partners {
+    background-color: #171720;
+    text-align: center;
+    padding: 70px 0;
+    border-top: 2px solid #fce8b1;
+}
+
+.home-partners h2 {
+    font-family: "PT Serif", serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fce8b1;
+    margin-bottom: 20px;
+}
+
+.imgPartner {
+    background-color: #3f3e44;
+    border-radius: 10px;
+    width: 80px;
+    padding: 16px;
+    height: 80px;
+    margin: 20px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: stretch;
+}
+
+.home-text07 {
+    display: block;
+    font-size: 14px;
+    color: #fce8b1;
+    margin: 15px auto;
+    line-height: 1.5;
+
+}
+
+.home-text08 {
+    display: block;
+    font-size: 14px;
+    color: #fce8b1;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+
+.home-stats {
+    background-color: #fff8f0;
+    text-align: center;
+    color: #090908;
+    padding: 70px 0;
+}
+
+.statsTitle {
+    
+    font-size: 44px;
+    font-weight: 400;
+    color: #ba9270;
+    margin-bottom: 30px;
+}
+
+.home-text09 {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #090908;
+}
+
+.home-stat,
+.home-stat1,
+.home-stat2 {
+    background-color: #eddcc9;
+    width: 50%;
+    font-size: 24px;
+    margin: 0 auto 15px auto;
+    padding: 14px 14px 14px 20px;
+    border-radius: 6px;
+    text-align: left;
+    border-left: solid #b0825c;
+    
+    color: #37282b;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.statText {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #0e0e12;
+    color: #d2b48c;
+    padding: 2px 0 15px 0;
+}
+
+.home-others {
+    display: flex;
+    justify-content: flex-start;
+    gap: 250px;
+    padding-left: 15rem;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+
+.othersTitle {
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    color: #e7eef2;
+    margin-top: 3px;
+}
+
+.othersText,
+.othersText1 {
+    font-size: 12px;
+    list-style: none;
+    line-height: 1.8;
+    color: #cfc3a2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.othersText1 {
+    line-height: 2.4;
+}
+
+.rights {
+    border-top: solid 2px #cfc3a2;
+    display: block;
+    padding-top: 1rem;
+    padding-left: 15rem;
+    text-align: start;
+    font-size: 12px;
+    color: #a89d84;
+}
+
+/* Responsive layout enhancements: retain the original desktop visual identity. */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-width: 320px; overflow-x: hidden; }
+img { max-width: 100%; }
+.home-navbar-container { padding: 18px 0; }
+.home-navbar { width: min(1200px, 92%); gap: 22px; }
+.home-logo img { padding-left: 0; display: block; }
+.home-links-container { flex-wrap: wrap; justify-content: flex-end; row-gap: 12px; }
+.home-links-container a { display: inline-block; transition: color .2s; }
+.home-links-container a:hover, .home-links-container a:focus-visible { color: #fff; text-decoration: underline; }
+.home-heading-container { min-height: 660px; padding: 210px max(5vw, calc((100vw - 1200px) / 2)); isolation: isolate; }
+.img-trph { width: min(1150px, 85vw); left: auto; right: -5%; top: 80px; max-width: none; opacity: .7; z-index: -1; }
+.home-text03 { font-size: clamp(2.8rem, 5.1vw, 4.5rem); max-width: 850px; }
+.home-text04 { max-width: 510px; }
+.home-cards-container { padding: 80px max(4vw, 24px); gap: clamp(24px, 5vw, 70px); }
+.home-feature-card, .home-feature-card1 { flex: 1 1 0; width: auto; max-width: 510px; }
+.Card-Heading { font-size: clamp(2rem, 3.4vw, 3.1rem); }
+.home-partners, .home-stats { padding-left: 20px; padding-right: 20px; }
+.home-stat, .home-stat1, .home-stat2 { width: min(760px, 100%); border-left-width: 5px; }
+.home-others { padding: 46px max(5vw, calc((100vw - 1200px) / 2)) 20px; gap: 34px 60px; justify-content: space-between; }
+.home-others > div { flex: 1 1 175px; }
+.rights { padding: 20px max(5vw, calc((100vw - 1200px) / 2)); }
+.btn:hover, .btn:focus-visible { background: #fce8b1; color: #171720; }
+@media (max-width: 900px) {
+  .home-heading-container { padding: 195px 6vw 100px; min-height: 610px; }
+  .img-trph { width: 112%; right: -35%; top: 125px; opacity: .47; }
+  .home-navbar { width: 92%; }
+  .home-links-container { gap: 12px 18px; }
+  .home-links-container a { font-size: 12px; }
+  .home-cards-container { gap: 28px; }
+  .home-text03 { font-size: clamp(2.8rem, 6.5vw, 4rem); }
+}
+@media (max-width: 600px) {
+  .home-navbar-container { position: relative; background: #010005; padding: 18px 0 14px; }
+  .home-navbar { flex-direction: column; gap: 17px; }
+  .home-logo img { width: 76px; }
+  .home-links-container { justify-content: center; gap: 12px 17px; }
+  .home-links-container a { font-size: 12px; }
+  .home-heading-container { min-height: 520px; padding: 105px 6vw 85px; }
+  .img-trph { width: 150%; top: 100px; right: -75%; opacity: .42; }
+  .home-text03 { font-size: clamp(2.35rem, 9.2vw, 3.4rem); line-height: 1.17; }
+  .home-text04 { font-size: 15px; max-width: 90%; margin-top: 25px; }
+  .home-cards-container { flex-direction: column; padding: 55px 6vw; gap: 36px; }
+  .home-feature-card, .home-feature-card1 { width: 100%; max-width: none; }
+  .Card-Heading { font-size: 2.2rem; }
+  .home-partners, .home-stats { padding: 50px 6vw; }
+  .home-partners h2 { font-size: 2.3rem; }
+  .imgPartner { width: 95px; height: 95px; margin: 15px 8px; padding: 13px; }
+  .statsTitle { font-size: 2.2rem; }
+  .home-stat, .home-stat1, .home-stat2 { font-size: 17px; padding: 18px; }
+  .statText { font-size: 16px; }
+  .home-others { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 27px 18px; padding: 45px 6vw 26px; }
+  .othersTitle { line-height: 1.35; }
+  .rights { display: block; padding: 22px 6vw; line-height: 1.6; }
+}
+@media (max-width: 380px) {
+  .home-others { grid-template-columns: 1fr; }
+  .home-heading-container { min-height: 550px; }
+}
